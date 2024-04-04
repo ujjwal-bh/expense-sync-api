@@ -1,7 +1,17 @@
 # ExpenseSync
 
+## Table of Contents
+
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Description
-NestExpenses is a web application designed to track individual expenses and facilitate group expense sharing. Built with NestJS, it provides a robust backend framework for managing user authentication, expense tracking, and group management.
+ExpenseSync is a web application designed to track individual expenses and facilitate group expense sharing. Built with NestJS, it provides a robust backend framework for managing user authentication, expense tracking, and group management.
+
+For frontend of this application, please visit the link [here](https://github.com/ujjwal-bh/expense-sync-ui)
 
 
 ## Prerequisites
@@ -11,13 +21,6 @@ Make sure you have the following installed on your system
 - NestJS
 - Docker
 
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
