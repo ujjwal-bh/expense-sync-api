@@ -12,3 +12,26 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+
+// enums
+enum GenderEnum{
+  MALE
+  FEMALE
+  OTHER
+}
+
+model User{
+  id String @default(uuid()) @id
+  email String @unique
+  hashedPassword String
+  name String
+  profile String?
+  age Int?
+  gender GenderEnum?
+  profession String?
+
+
+  createdAt DateTime @default(now())
+  updateAt DateTime @updatedAt()
+}
